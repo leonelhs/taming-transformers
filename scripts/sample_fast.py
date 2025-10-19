@@ -4,10 +4,10 @@ import time
 import numpy as np
 from omegaconf import OmegaConf
 from PIL import Image
-from tqdm import tqdm, trange
+from tqdm import tqdm
 from einops import repeat
 
-from main import instantiate_from_config
+from taming.main import instantiate_from_config
 from taming.modules.transformer.mingpt import sample_with_past
 
 

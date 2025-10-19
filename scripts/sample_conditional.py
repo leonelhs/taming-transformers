@@ -3,10 +3,8 @@ import torch
 import numpy as np
 from omegaconf import OmegaConf
 import streamlit as st
-from streamlit import caching
 from PIL import Image
-from main import instantiate_from_config, DataModuleFromConfig
-from torch.utils.data import DataLoader
+from taming.main import instantiate_from_config
 from torch.utils.data.dataloader import default_collate
 
 
