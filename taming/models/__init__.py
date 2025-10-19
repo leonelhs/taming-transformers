@@ -1,1 +1,0 @@
-from cond_transformer import Net2NetTransformer
