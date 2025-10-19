@@ -1,0 +1,16 @@
+.idea/
+__pycache__/
+build/
+logs
+taming.egg-info/
+taming/__pycache__/
+taming/data/__pycache__/
+taming/models/__pycache__/
+taming/modules/__pycache__/
+taming/modules/diffusionmodules/__pycache__/
+taming/modules/discriminator/__pycache__/
+taming/modules/losses/__pycache__/
+taming/modules/transformer/__pycache__/
+taming/modules/vqvae/__pycache__/
+taming_transformers.egg-info/
+test.py
